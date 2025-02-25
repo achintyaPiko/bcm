@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/brightnessControlBCM/MemoryController.xst" -ofn "/home/ise/brightnessControlBCM/MemoryController.syr" 

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/brightnessControlBCM/pointerRegister.xst" -ofn "/home/ise/brightnessControlBCM/pointerRegister.syr" 
+xst -intstyle ise -ifn "/home/ise/brightnessControlBCM/pointerRegister.xst" -ofn "/home/ise/brightnessControlBCM/pointerRegister.syr" 

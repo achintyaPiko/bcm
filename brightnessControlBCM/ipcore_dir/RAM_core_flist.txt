@@ -1,0 +1,15 @@
+# Output products list for <RAM_core>
+RAM_core/blk_mem_gen_v7_3_readme.txt
+RAM_core/doc/blk_mem_gen_v7_3_vinfo.html
+RAM_core/doc/pg058-blk-mem-gen.pdf
+RAM_core.asy
+RAM_core.gise
+RAM_core.ngc
+RAM_core.sym
+RAM_core.v
+RAM_core.veo
+RAM_core.xco
+RAM_core.xise
+RAM_core_flist.txt
+RAM_core_xmdf.tcl
+summary.log

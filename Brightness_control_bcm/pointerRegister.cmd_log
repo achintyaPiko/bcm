@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Shared-Directory-ISE/Brightness_control_bcm/pointerRegister.xst" -ofn "/home/ise/Shared-Directory-ISE/Brightness_control_bcm/pointerRegister.syr" 

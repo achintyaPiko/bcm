@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/Shared-Directory-ISE/Brightness_control_bcm/pointerRegister_isim_beh.exe" -prj "/home/ise/Shared-Directory-ISE/Brightness_control_bcm/pointerRegister_beh.prj" "work.pointerRegister" "work.glbl" 

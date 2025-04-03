@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "/home/ise/round2ofthisShittySoftware/topLVL.xst" -ofn "/home/ise/round2ofthisShittySoftware/topLVL.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx9-tqg144-3 topLVL.ngc topLVL.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topLVL_map.ncd topLVL.ngd topLVL.pcf 
+par -w -intstyle ise -ol high -mt off topLVL_map.ncd topLVL.ncd topLVL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topLVL.twx topLVL.ncd -o topLVL.twr topLVL.pcf 
+bitgen -intstyle ise -f topLVL.ut topLVL.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc UCF.ucf -p xc6slx9-tqg144-3 topLVL.ngc topLVL.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topLVL_map.ncd topLVL.ngd topLVL.pcf 
+par -w -intstyle ise -ol high -mt off topLVL_map.ncd topLVL.ncd topLVL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topLVL.twx topLVL.ncd -o topLVL.twr topLVL.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f topLVL.ut topLVL.ncd 
+xst -intstyle ise -ifn "/home/ise/round2ofthisShittySoftware/topLVL.xst" -ofn "/home/ise/round2ofthisShittySoftware/topLVL.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc UCF.ucf -p xc6slx9-tqg144-3 topLVL.ngc topLVL.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topLVL_map.ncd topLVL.ngd topLVL.pcf 
+par -w -intstyle ise -ol high -mt off topLVL_map.ncd topLVL.ncd topLVL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topLVL.twx topLVL.ncd -o topLVL.twr topLVL.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f topLVL.ut topLVL.ncd 
+xst -intstyle ise -ifn "/home/ise/round2ofthisShittySoftware/topLVL.xst" -ofn "/home/ise/round2ofthisShittySoftware/topLVL.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc UCF.ucf -p xc6slx9-tqg144-3 topLVL.ngc topLVL.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topLVL_map.ncd topLVL.ngd topLVL.pcf 
+par -w -intstyle ise -ol high -mt off topLVL_map.ncd topLVL.ncd topLVL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topLVL.twx topLVL.ncd -o topLVL.twr topLVL.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f topLVL.ut topLVL.ncd 
+xst -intstyle ise -ifn "/home/ise/round2ofthisShittySoftware/topLVL.xst" -ofn "/home/ise/round2ofthisShittySoftware/topLVL.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc UCF.ucf -p xc6slx9-tqg144-3 topLVL.ngc topLVL.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topLVL_map.ncd topLVL.ngd topLVL.pcf 
+par -w -intstyle ise -ol high -mt off topLVL_map.ncd topLVL.ncd topLVL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topLVL.twx topLVL.ncd -o topLVL.twr topLVL.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f topLVL.ut topLVL.ncd 
+xst -intstyle ise -ifn "/home/ise/round2ofthisShittySoftware/topLVL.xst" -ofn "/home/ise/round2ofthisShittySoftware/topLVL.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc UCF.ucf -p xc6slx9-tqg144-3 topLVL.ngc topLVL.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o topLVL_map.ncd topLVL.ngd topLVL.pcf 
+par -w -intstyle ise -ol high -mt off topLVL_map.ncd topLVL.ncd topLVL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml topLVL.twx topLVL.ncd -o topLVL.twr topLVL.pcf -ucf UCF.ucf 
+bitgen -intstyle ise -f topLVL.ut topLVL.ncd 

@@ -1,0 +1,26 @@
+CONFIG PROHIBIT=P144;
+CONFIG PROHIBIT=P69;
+CONFIG PROHIBIT=P60;
+
+NET "clk"            LOC="P94"  | IOSTANDARD=LVTTL | PERIOD=31.25ns;               # CLK
+
+NET "OE"           LOC="P114" | IOSTANDARD=LVTTL;                                # C0
+NET "CLK_75"           LOC="P115" | IOSTANDARD=LVTTL;                                # C1
+NET "ADDRESS[0]"           LOC="P116" | IOSTANDARD=LVTTL;                                # C2
+NET "ADDRESS[2]"           LOC="P117" | IOSTANDARD=LVTTL;                                # C3
+NET "B2"           LOC="P118" | IOSTANDARD=LVTTL;                                # C4
+NET "R2"           LOC="P119" | IOSTANDARD=LVTTL;                                # C5
+NET "B1"           LOC="P120" | IOSTANDARD=LVTTL;                                # C6
+NET "R1"           LOC="P121" | IOSTANDARD=LVTTL;                                # C7
+NET "LAT"           LOC="P123" | IOSTANDARD=LVTTL;                                # C8
+#NET "D"           LOC="P124" | IOSTANDARD=LVTTL;                                # C9
+NET "ADDRESS[1]"          LOC="P126" | IOSTANDARD=LVTTL;                                # C10
+NET "G2"          LOC="P127" | IOSTANDARD=LVTTL;                                # C11
+NET "G1"          LOC="P131" | IOSTANDARD=LVTTL;                                # C12
+
+#NET "state[1]"           LOC="P99"  | IOSTANDARD=LVTTL;                                # B0
+#NET "state[0]"           LOC="P97"  | IOSTANDARD=LVTTL;                                # B1
+
+
+NET "probe"          LOC="P85"  | IOSTANDARD=LVTTL;                                # A10
+NET "led1"           LOC="P112" | IOSTANDARD=LVTTL | DRIVE=8 | SLEW=SLOW;          # LED1

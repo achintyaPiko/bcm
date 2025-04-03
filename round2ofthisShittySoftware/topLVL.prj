@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/ROM_core_green.v"
+verilog work "ipcore_dir/ROM_core_Blue.v"
+verilog work "ipcore_dir/ROM_core.v"
+verilog work "topLVL.v"

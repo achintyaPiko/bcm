@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/round2ofthisShittySoftware/topLVL.ncd
+OUTFILE=/home/ise/round2ofthisShittySoftware/topLVL.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=/home/ise/round2ofthisShittySoftware
+LICENSE=WebPack
+USER_INFO=212917519_0_0_052

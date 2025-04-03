@@ -1,0 +1,17 @@
+# Output products list for <ROM_core>
+ROM_core/blk_mem_gen_v7_3_readme.txt
+ROM_core/doc/blk_mem_gen_v7_3_vinfo.html
+ROM_core/doc/pg058-blk-mem-gen.pdf
+ROM_core.asy
+ROM_core.gise
+ROM_core.mif
+ROM_core.ngc
+ROM_core.sym
+ROM_core.v
+ROM_core.veo
+ROM_core.xco
+ROM_core.xise
+ROM_core_flist.txt
+ROM_core_xmdf.tcl
+_xmsgs/pn_parser.xmsgs
+summary.log
